@@ -3,7 +3,7 @@ sort: 6
 ---
 
 # dGPU
-In order to get your dGPU to work a few steps must be followed and a few caveats must be observed. By default the config disables any dGPU as many are simply not compatible and would cause pancis and crashes.
+In order to get your dGPU to work a few steps must be followed and a few caveats must be observed. By default the config disables any dGPU as many are simply not compatible and would cause panics and crashes.
 
 The first step is to make sure your card is supported. Please refer to [this](https://dortania.github.io/GPU-Buyers-Guide/) great write-up coverering that subject. If your card is not compatible you can leave things as they are, remove the card or disable the card via [ACPI](https://dortania.github.io/Getting-Started-With-ACPI/Desktops/desktop-disable.html). The latter two will save some power. If your card is compatible proceed with the following steps:
 
